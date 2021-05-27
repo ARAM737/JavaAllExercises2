@@ -1,3 +1,14 @@
 student.name: "Aram"
 student.last_name: Grigoryan
 student.group: ikbo-16-19
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:8082/postgres
+    username: postgres
+    password: admin
